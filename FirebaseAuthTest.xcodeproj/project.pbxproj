@@ -14,7 +14,6 @@
 		ECE8FBAD2220E5C300BC48A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE8FBAC2220E5C300BC48A1 /* Assets.xcassets */; };
 		ECE8FBB02220E5C300BC48A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE8FBAE2220E5C300BC48A1 /* LaunchScreen.storyboard */; };
 		ECE8FBB82220E78F00BC48A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECE8FBB72220E78F00BC48A1 /* GoogleService-Info.plist */; };
-		ECE8FBBA222119AC00BC48A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8FBB9222119AC00BC48A1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		ECE8FBAF2220E5C300BC48A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE8FBB12220E5C300BC48A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE8FBB72220E78F00BC48A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleServiceplist/FirebaseAuthTest/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		ECE8FBB9222119AC00BC48A1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F6086031A54739C0DF234115 /* Pods-FirebaseAuthTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseAuthTest/Pods-FirebaseAuthTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 			children = (
 				ECE8FBA52220E5BE00BC48A1 /* AppDelegate.swift */,
 				ECE8FBA72220E5BE00BC48A1 /* ViewController.swift */,
-				ECE8FBB9222119AC00BC48A1 /* SecondViewController.swift */,
 				ECE8FBA92220E5BE00BC48A1 /* Main.storyboard */,
 				ECE8FBAC2220E5C300BC48A1 /* Assets.xcassets */,
 				ECE8FBAE2220E5C300BC48A1 /* LaunchScreen.storyboard */,
@@ -282,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE8FBBA222119AC00BC48A1 /* SecondViewController.swift in Sources */,
 				ECE8FBA82220E5BE00BC48A1 /* ViewController.swift in Sources */,
 				ECE8FBA62220E5BE00BC48A1 /* AppDelegate.swift in Sources */,
 			);
